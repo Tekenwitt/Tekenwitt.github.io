@@ -1,0 +1,111 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    font-family: 'Lato',sans-serif;
+
+}
+h1, h2, h3{
+    font-weight: bold;
+}
+#about{
+    background-color: rgb(6, 6, 133);
+}
+.pdp {
+    text-align: center;
+    margin: 0 auto 30px;
+
+}
+section {
+    padding: 65px 0 80px 0;
+}
+section .heading{
+        text-align: center;
+        padding-bottom: 40px;
+    }
+img {
+    max-width: 100% ;
+    height: auto;
+}
+.pdp img {
+    size: 3em;
+}
+#about .heading h1 {
+    color:white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+.divider {
+    width: 100px;
+    height: 2px;
+    background-color: rgb(6, 6, 133);
+    margin: 0 auto 20px;
+}
+ section .heading h2 {
+     text-transform: uppercase;
+} 
+#skills .heading h2 {
+        color: rgb(6, 6, 133);
+}
+#skills .progress {
+    height: 45px;
+    margin: 30px 20px;
+}
+#skills .progress:last-child {
+    margin-bottom: 0px;
+}
+#skills  .progress-bar{
+    background-color: rgb(126, 193, 255);
+    
+
+}
+
+#skills .progress-bar h5{
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 3px;
+
+}
+
+.progress-bar h5{
+    text-transform: uppercase;
+}
+
+#experience {
+    background-color: rgb(6, 6, 133);
+}
+#experience .heading h2{
+    color: darkgrey;
+
+}
+.divider.white{
+    background-color: #fff
+}
+.timeline {
+    padding: 30px 10px;
+    position: relative;
+
+}
+.timeline::before{
+    top:0%;
+    bottom:0;
+    position: absolute;
+    content: " ";
+    width: 5px;
+    background-color: black;
+    left: 50%;
+    margin-left: -2.5px;
+}
+/* .navbar section li {
+    float:right;
+}
+.navbar section li a {
+    padding-left: 8px ;
+    display: block;
+   
+}
+ 
+.navbar a:hover{
+    color:red;
+    
+} */
