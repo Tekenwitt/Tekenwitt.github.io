@@ -147,10 +147,68 @@ img {
 
 }
 .timeline-heading h3 {
-    color:#d4d4d4
+    color:#d4d4d4;
 }
 .timeline-heading h4 {
-    color:rgb(147, 103, 19)
+    color:rgb(147, 103, 19);
+}
+
+/* education */
+
+.education .heading h2 {
+    color:#ff0000;
+}
+.education-block{
+    width: 90%;
+    margin: 0% auto;
+    text-align: center;
+    padding: 30px;
+    background: #e9ecef;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+.education-block span .bi-award-fill{
+    
+    color: darkblue;
+}
+.education-block h3{
+    text-transform: uppercase;
+    color:#00b77a;
+}
+.education-block{
+    background-color: #4f3cb1;
+}
+#education  {
+    background-color: #09517b;
+}
+#education p {
+    color: #f4f4f9;
+}
+#portfolio {
+    background-color: #4f3cb1;
+}
+#portfolio .heading h2 {
+    color: #f4f4f9;
+}
+#portfolio img {
+    width: 100%;
+    height: 100;
+    filter: grayscale(100%);
+    --webkit-filter:grayscale(100%):
+}
+#portfolio img:hover{
+    filter: none;
+    --webkit-filter:none;
+
+    
+}
+footer {
+    background-color: #f4f4f9;
+    padding: 20px 0 40px;
+}
+footer span {
+    color: #09517b;
 }
 /* .navbar section li {
     float:right;
